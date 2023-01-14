@@ -12,7 +12,7 @@ fun main(args: Array<String>) {
     notes.add(note3)
     println("+++++++++++++++++++++++++++++++")
     var checkget = notes.get(11,3)
-    checkget.stream().forEach {  nextNote : Note -> println(nextNote)}
+    checkget.stream().forEach { nextNote: Note -> println(nextNote) }
     println("+++++++++++++++++++++++++++++++")
     var comment = Comment(0,1,13,1,"t")
     var num =  notes.createComment(comment)
